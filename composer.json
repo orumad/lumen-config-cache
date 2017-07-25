@@ -4,7 +4,6 @@
     "type": "library",
     "keywords": [
         "orumad",
-        "orumad/lumen-config-cache",
         "lumen-config-cache",
         "laravel",
         "laravel-5-package"
