@@ -1,6 +1,6 @@
 # lumen-config-cache
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/orumad/lumen-config-cache.svg?style=flat-square)](https://packagist.org/packages/orumad/lumen-config-cache) [![Total Downloads](https://img.shields.io/packagist/dt/orumad/lumen-config-cache.svg?style=flat-square)](https://packagist.org/packages/orumad/lumen-config-cache) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://packagist.org/packages/orumad/lumen-config-cache))]
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/orumad/lumen-config-cache.svg?style=flat-square)](https://packagist.org/packages/orumad/lumen-config-cache) [![Total Downloads](https://img.shields.io/packagist/dt/orumad/lumen-config-cache.svg?style=flat-square)](https://packagist.org/packages/orumad/lumen-config-cache) [![License: MIT](https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square)](https://packagist.org/packages/orumad/lumen-config-cache)
 
 Adds the Laravel artisan command `config:cache` to Lumen.
 
