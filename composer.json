@@ -1,0 +1,43 @@
+{
+    "name": "orumad/lumen-config-cache",
+    "description": "Adds the Laravel command `php artisan config:cache` to Lumen",
+    "type": "library",
+    "keywords": [
+        "orumad",
+        "orumad/lumen-config-cache",
+        "lumen-config-cache",
+        "laravel",
+        "laravel-5-package"
+    ],
+    "homepage": "https://github.com/orumad/lumen-config-cache",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Muñoz",
+            "email": "dev@danielmunoz.io"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/contracts": "~5.4.0",
+        "illuminate/support": "~5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orumad\\ConfigCache\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Orumad\\ConfigCache\\ServiceProviders\\ConfigCacheServiceProvider"
+            ],
+            "aliases": {
+                "ConfigCache": "Orumad\\ConfigCache\\Facades\\ConfigCacheFacade"
+            }
+        }
+    }
+}
