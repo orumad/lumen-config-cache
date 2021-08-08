@@ -5,8 +5,11 @@
     "keywords": [
         "orumad",
         "lumen-config-cache",
+        "lumen",
         "laravel",
-        "laravel-5-package"
+        "laravel-6-package",
+        "laravel-7-package",
+        "laravel-8-package"
     ],
     "homepage": "https://github.com/orumad/lumen-config-cache",
     "license": "MIT",
@@ -17,9 +20,9 @@
         }
     ],
     "require": {
-        "php": "^7.0",
-        "illuminate/contracts": "^6.0",
-        "illuminate/support": "^6.0"
+        "php": ">=7.0",
+        "illuminate/contracts": "^6.0 || ^7.0 || ^8.0",
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0"
     },
     "autoload": {
         "psr-4": {
