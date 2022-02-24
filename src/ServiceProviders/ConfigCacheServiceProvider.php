@@ -3,6 +3,7 @@
 namespace Orumad\ConfigCache\ServiceProviders;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Arr;
 use Orumad\ConfigCache\ConfigCache;
 use Orumad\ConfigCache\Exceptions\InvalidConfiguration;
 
@@ -50,7 +51,7 @@ class ConfigCacheServiceProvider extends ServiceProvider
                 $configs_array[$configFile] = config($configFile);
             }
 
-            return new ConfigCache(array_dot($configs_array), $config['cache_key'], $config['cache_expiration_time']);
+            return new ConfigCache(Arr::dot($configs_array), $config['cache_key'], $config['cache_expiration_time']);
         });
 
         $this->app->alias(ConfigCache::class, 'lumen-config-cache');

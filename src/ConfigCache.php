@@ -13,7 +13,7 @@ class ConfigCache
      * (if this is not in chache yet)
      * @param Array $config The app config data
      */
-    public function __construct(Array $config, $cacheKey = 'config_cache', $expirationTime = 60*24)
+    public function __construct(array $config, $cacheKey = 'config_cache', $expirationTime = 60*24)
     {
         $this->cacheKey = $cacheKey;
 
@@ -39,5 +39,4 @@ class ConfigCache
     {
         Cache::forget($this->cacheKey);
     }
-
 }
